@@ -41,7 +41,6 @@ async function updateContent() {
             }
         }
     } catch (error) {
-        console.error("Error fetching content:", error);
         content = "Error loading page.";
     }
 
