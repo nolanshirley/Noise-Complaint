@@ -18,7 +18,6 @@ async function updateContent() {
     const contentDiv = document.getElementById("content");
     const route = window.location.hash.substring(1);
 
-    console.log(route);
     let content = '';
 
     try {

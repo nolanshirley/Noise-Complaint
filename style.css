@@ -93,8 +93,7 @@ footer {
     color: #e3b5a4;
     display: block;
     transition: 0.3s;
-    letter-spacing: 2px;
-    opacity: 1;
+    letter-spacing: 0.5px;
 }
 
 .sidenav a:hover {
