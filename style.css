@@ -21,10 +21,6 @@ header {
     margin: 1rem;
 }
 
-.logo {
-    font-style: italic;
-}
-
 ul {
     display: flex;
     flex-direction: row;
@@ -49,14 +45,18 @@ h2 {
     font-weight: 600;
     margin: 0;
     padding: 0;
-    color: #800020;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
     /* Your styles for small screens go here */
     h1 {
-        font-size: 2rem;
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
     }
 }
 
@@ -67,10 +67,7 @@ li {
 }
 
 .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    text-align: center;
 }
 
 footer {
@@ -97,6 +94,7 @@ footer {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    cursor: pointer;
 }
 
 .sidenav a {
@@ -107,10 +105,13 @@ footer {
     display: block;
     transition: 0.3s;
     letter-spacing: 2px;
+    opacity: 1;
 }
 
 .sidenav a:hover {
     color: #fffdd0;
+    transform:scale(1.5);
+    margin-left: 2.8rem;
 }
 
 .sidenav .closebtn {
@@ -118,11 +119,13 @@ footer {
     top: 0;
     right: 0;
     font-size: 36px;
-    margin-left: 50px;
+    margin-right: 10px;
 }
 
 .span {
-    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-end;
     font-size: 36px !important;
     cursor:pointer;
 }
@@ -141,12 +144,25 @@ footer {
 }
 
 a {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 600;
     padding: 0 0.5rem 0 0.5rem;
+    text-decoration: none;
+    outline: none;
 }
 
 .content {
-    text-align: center;
-    padding: 20px;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.diagonal-split-background {
+    background-color: #800020;
+    color: white;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    padding: 6rem;
+}
+
+p {
+    font-size: large;
 }
