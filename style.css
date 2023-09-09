@@ -88,7 +88,7 @@ footer {
 }
 
 .sidenav a:hover {
-    color: #fffdd0;
+    color: #ffd700;
     transform:scale(1.5);
     margin-left: 2.8rem;
 }
@@ -101,12 +101,22 @@ footer {
     margin-right: 10px;
 }
 
+.sidenav .closebtn:hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    margin-right: 10px;
+    color: #ffd700;
+}
+
 .span {
     display: flex;
     flex-direction: row;
     justify-content: space-end;
     font-size: 36px !important;
     cursor:pointer;
+    color: #800020;
 }
 
 @media screen and (max-height: 450px) {
