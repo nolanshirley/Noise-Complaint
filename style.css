@@ -21,16 +21,6 @@ header {
     margin: 1rem;
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 h1 {
     font-size: 5rem;
     font-weight: 600;
@@ -44,9 +34,10 @@ h2 {
     font-size: 3rem;
     font-weight: 600;
     margin: 0;
-    padding: 0;
+    padding-top: 1rem;
     letter-spacing: 3px;
     text-align: center;
+    color: #ffd700;
 }
 
 li {
@@ -151,8 +142,20 @@ a {
     padding: 6rem;
 }
 
+.footer-diagonal-split-background {
+    background-color: #36454f;
+    color: #b0e0e6;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+    padding: 2rem;
+}
+
+i {
+    color: #b0e0e6;
+}
+
 p {
     font-size: 1.5rem;
+    color: #ffd700;
 }
 
 @media (max-width: 767px) {
