@@ -59,8 +59,9 @@ footer {
 
 .footer-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .sidenav {
@@ -193,4 +194,61 @@ p {
         top: 0;
         padding: 1.5rem;
     }
+}
+
+form {
+    text-align: center;
+    color: #ffffff;
+}
+
+input {
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 2px solid #36454f;
+    /* box-shadow: 2px 2px 0 0 #b0e0e6; */
+    transition: all 0.2s ease-in-out;
+}
+
+input:hover {
+    border: 2px solid #36454f;
+    box-shadow: 0 0 2px 2px #b0e0e6;
+    transition: all 0.5s ease-in-out;
+}
+
+.reset-button {
+    background-color: #ffffff;
+    color: #36454f;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    border: 2px solid #36454f;
+    box-shadow: 4px 4px 0 0 #b0e0e6;
+    transition: all 0.2s ease-in-out;
+}
+
+.reset-button:hover {
+    border: 2px solid #36454f;
+    box-shadow: 0 0 4px 4px #b0e0e6;
+    transition: all 0.5s ease-in-out;
+}
+
+.submit-button {
+    background-color: #ffffff;
+    color: #36454f;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    border: 2px solid #36454f;
+    box-shadow: 4px 4px 0 0 #b0e0e6;
+    transition: all 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+    border: 2px solid #36454f;
+    box-shadow: 0 0 4px 4px #b0e0e6;
+    transition: all 0.5s ease-in-out;
 }
