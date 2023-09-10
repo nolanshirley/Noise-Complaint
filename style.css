@@ -149,8 +149,8 @@ a {
 .diagonal-split-background {
     background-color: #800020;
     color: white;
-    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
-    padding: 6rem;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    padding: 2.5rem;
 }
 
 .footer-diagonal-split-background {
@@ -197,7 +197,10 @@ p {
 }
 
 form {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: #ffffff;
 }
 
@@ -205,30 +208,25 @@ input {
     margin: 1rem;
     padding: 0.5rem;
     border: 2px solid #36454f;
-    /* box-shadow: 2px 2px 0 0 #b0e0e6; */
+    box-shadow: 2px 2px 0 0 #b0e0e6;
     transition: all 0.2s ease-in-out;
 }
 
 input:hover {
     border: 2px solid #36454f;
-    box-shadow: 0 0 2px 2px #b0e0e6;
+    box-shadow: 0 0 4px 4px #b0e0e6;
     transition: all 0.5s ease-in-out;
 }
 
-.reset-button {
-    background-color: #ffffff;
-    color: #36454f;
-    border: none;
+textarea {
+    margin: 1rem;
     padding: 0.5rem;
-    cursor: pointer;
-    font-weight: 700;
-    letter-spacing: 0.4px;
     border: 2px solid #36454f;
-    box-shadow: 4px 4px 0 0 #b0e0e6;
+    /* box-shadow: 2px 2px 0 0 #b0e0e6; */
     transition: all 0.2s ease-in-out;
 }
 
-.reset-button:hover {
+textarea:hover {
     border: 2px solid #36454f;
     box-shadow: 0 0 4px 4px #b0e0e6;
     transition: all 0.5s ease-in-out;
