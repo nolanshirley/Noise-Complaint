@@ -50,3 +50,14 @@ async function updateContent() {
 updateContent();
 
 window.onhashchange = updateContent;
+
+function outFunc() {
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copy to clipboard";
+}
+
+function onEmailButtonClick() {
+    navigator.clipboard.writeText("keeponcomplaining@gmail.com");
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copied!";
+}

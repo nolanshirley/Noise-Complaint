@@ -8,9 +8,17 @@
 </head>
 <body>
     <div class="diagonal-split-background">
-        <h2>
-            Contact Us
-        </h2>
+        <div style="display:flex;align-items: center; justify-content: center;">
+            <h2>
+                Contact Us 
+            </h2>
+            <div class="tooltip">
+                <button onclick="onEmailButtonClick()" onmouseout="outFunc()" class="email-button" id="emailButton" alt="email"> 
+                    <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                    keeponcomplaining@gmail.com
+                </button>
+            </div>
+        </div>
         <form action="mailto:keeponcomplaining@gmail.com" method="post" enctype="text/plain">
             <div class="input-div">
                 <div>
