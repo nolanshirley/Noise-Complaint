@@ -30,6 +30,27 @@ h1 {
     letter-spacing: 1.5px;
 }
 
+/* HTML: <div class="loader"></div> */
+.loader {
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 
+        0 0 0 #36454f, 
+        0 0 0 #b0e0e6, 
+        0 0 0 #e3b5a4;
+    font-size: 30px;
+    animation: l32 1.5s 2 cubic-bezier(0.5,-2000,0.5,2000);
+}
+
+@keyframes l32{
+    25%,100% {
+    text-shadow: 
+        0.01px -0.01px 0.01px #36454f,
+        0.01px  0.01px 0     #b0e0e6, 
+        -0.01px  0.01px 0     #e3b5a4;
+    }
+}
+
 h2 {
     font-size: 3rem;
     font-weight: 600;
@@ -143,6 +164,8 @@ a {
 
 .content {
     color: #fff;
+    overflow-y: auto;
+    max-height: 62vh;
 }
 
 .diagonal-split-background {
