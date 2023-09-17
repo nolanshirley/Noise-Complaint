@@ -47,7 +47,7 @@ textarea:hover {
 }
 
 .submit-button {
-    margin: 1rem;
+    margin: 0.1rem 1rem 1rem 1rem;
     background-color: #ffffff;
     color: #36454f;
     border: none;
@@ -125,7 +125,7 @@ textarea:hover {
 
 @media (max-width: 767px) {
     .diagonal-split-background {
-        padding: 2rem;
+        padding: 0.5rem;
         clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     }
 
